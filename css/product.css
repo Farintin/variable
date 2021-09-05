@@ -1,0 +1,436 @@
+#details {
+    width: 72%;
+    margin-top: 42px;
+}
+
+#details .menu {
+    position: relative;
+    width: 100%;
+}
+#details .menu .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+}
+#details .menu .bg .border {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+#details .menu nav {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+#details .menu nav::-webkit-scrollbar {
+    display: none;
+}
+#details .menu .tab {
+    display: flex;
+}
+#details .menu .tab .col-1 {
+    padding: 12px 0px;
+    border: 1px solid rgba(0,0,0,0);
+    border-width: 0 0 2px 0;
+    cursor: pointer;
+}
+#details .menu .tab.active .col-1 {
+    border-color: red;
+}
+#details .menu .tab .col-1 p {
+    font-size: 93%;
+    font-weight: 600;
+}
+#details .menu .tab .col-2 .gap {
+    width: 36px;
+    height: 100%;
+}
+#details .menu .tab:last-child .col-2 .gap {
+    width: 0;
+}
+
+#details .scroll-btns {
+    width: fit-content;
+    margin-left: auto;
+}
+#details .scroll-btns.disabled {
+    opacity: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#details .scroll-btns.enabled {
+    opacity: 1;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#details .scroll-btns .icon {
+    margin-left: 24px;
+    width: 15px;
+}
+
+#details .contents {
+    width: 100%;
+}
+#details .content p {
+    font-size: 84%;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 129%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product2 {
+    border: 4px solid #fff;
+}
+.product2 .wrapper {
+    width: 240px;
+}
+.product2 .image {
+    height: 360px;
+    position: relative;
+}
+.product2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product2 .image .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 66%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.product2 .image .overlay .icon.plus {
+    width: 20px;
+    color: #fff;
+}
+.product2 .image .overlay .icon.plus svg {
+    fill: #fff;
+    stroke: #fff;
+}
+.product2 .image .overlay .add-to-cart {
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.product2 .name {
+    font-family: 'Playfair_Display', serif;
+    font-size: 99%;
+    font-weight: 500;
+    margin-top: 18px;
+    letter-spacing: 0.9px;
+}
+.product2 .price {
+    font-size: 90%;
+    font-weight: 700;
+    margin-top: 6px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body#product #sample {
+    display: grid;
+    grid-template-columns: 54px 7fr 6fr;
+    grid-template-rows: 100vh;
+    margin-top: 27px;
+}
+
+body#product #sample #gallery {
+    padding: 18px 0;
+    display: grid;
+    grid-template-rows: 42px auto 42px;
+    grid-gap: 18px;
+}
+body#product #sample #gallery .scroll-btn {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+body#product #sample #gallery .scroll-btn .icon {
+    width: auto;
+    height: 100%;
+}
+body#product #sample #gallery .scroll-btn .icon svg {
+    height: 100%;
+}
+body#product #sample #gallery .thumbs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+body#product #sample #gallery .thumbs::-webkit-scrollbar {
+    display: none;
+}
+body#product #sample #gallery .thumb {
+    margin: 0px 0px 27px;
+    border: 3px solid rgba(0,0,0,0);
+}
+body#product #sample #gallery .thumb.active {
+    border-color: red;
+}
+body#product #sample #gallery .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+body#product #sample #display {
+    padding-left: 27px;
+    box-sizing: border-box;
+}
+body#product #sample #display img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+body#product #sample #info {
+    padding: 18px 0 18px 27px;
+}
+body#product #sample #info .wrapper {
+    overflow-y: auto;
+    padding-right: 27px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body#product #sample #info .wrapper::-webkit-scrollbar {
+    width: 6px;
+}
+body#product #sample #info .wrapper::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+}
+body#product #sample #info .wrapper.scrollable {
+    justify-content: flex-start;
+}
+body#product #sample #info .wrapper > * {
+    margin-bottom: 15px;
+}
+body#product #sample #info .wrapper > *:last-child {
+    margin-bottom: 0;
+}
+
+body#product #sample #info .tags {
+    margin-bottom: 12px;
+}
+
+body#product #sample #info .tags .tag {
+    margin: 0px 15px 15px 0;
+}
+
+body#product #sample #info #name {
+    font-family: 'Playfair_Display', serif;
+    font-size: 180%;
+    font-weight: 400;
+    line-height: 120%;
+    width: 90%;
+}
+body#product #sample #info #name::first-letter {
+    text-transform: uppercase;
+}
+
+body#product #sample #info #price {
+    font-size: 180%;
+    font-weight: 600;
+    margin: 6px 0;
+}
+
+
+body#product #sample #info #colors {
+    margin: 27px 0 3px;
+}
+body#product #sample #info #sizes {
+    margin: 3px 0;
+}
+body#product #sample #info #colors, body#product #sample #info #sizes {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+body#product #sample #info #colors .heading {
+    padding-top: 12px;
+}
+body#product #sample #info #sizes .heading {
+    padding-top: 18px;
+}
+body#product #sample #info #colors .heading > *, body#product #sample #info #sizes .heading > * {
+    font-size: 87%;
+    font-weight: 600;
+}
+
+body#product #sample #info #colors main, body#product #sample #info #sizes main {
+    display: flex;
+    flex-wrap: wrap;
+}
+body#product #sample #info #sizes main .tag {
+    text-transform: uppercase;
+}
+
+body#product #sample #info #colors .color {
+    width: 15px;
+    height: 15px;
+}
+body#product #sample #info #colors .color.black {
+    background-color: black;
+}
+
+body#product #sample #info #colors main > *, body#product #sample #info #sizes main > * {
+    margin: 15px 15px 0 0;
+}
+
+
+
+body#product #sample #info #cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 24px 0;
+    width: 64%;
+}
+body#product #sample #info #cta > * {
+    margin: 12px 39px 12px 0;
+}
+body#product #sample #info #cta .btn p {
+    font-size: 81%;
+}
+body#product #sample #info #cta .icon {
+    width: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#recommended1 {
+    width: calc(-5px + (-1000px + 100vw)/2 + 1000px);
+    margin-left: auto;
+    margin-bottom: 42px;
+}
+#recommended1 .bg {
+    height: 360px;
+    background-color: grey;
+    margin-left: calc(54px + 27px);
+}
+
+#recommended1 main {
+    width: 100%;
+    margin-top: calc(-6px - 360px + 64px);
+}
+
+#recommended1 .heading {
+    width: 1000px;
+    padding-left: calc(54px + 27px);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2.5%;
+}
+
+#recommended1 .heading .col > * {
+    text-align: right;
+    margin: 9px 0;
+}
+#recommended1 .heading .col-1 {
+    display: flex;
+    align-items: flex-end;
+}
+#recommended1 .heading .scroll-btns {
+    width: fit-content;
+}
+#recommended1 .heading .scroll-btns .icon {
+    margin-left: 54px;
+    width: 15px;
+}
+#recommended1 .heading h6 {
+    font-size: 108%;
+    font-weight: 700;
+}
+#recommended1 .heading h2 {
+    font-family: 'Playfair_Display', serif;
+    font-size: 180%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+#recommended1 .products {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+#recommended1 .products::-webkit-scrollbar {
+    display: none;
+}
+#recommended1 .products .product {
+    margin-right: 36px;
+}

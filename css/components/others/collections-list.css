@@ -1,0 +1,162 @@
+#collections-list1 {
+    margin-top: 210px;
+}
+
+#collections-list1 .heading {
+    background-color: var(--bgcolor);
+    padding-bottom: 72px;
+}
+#collections-list1 .heading h1 {
+    font-size: 300%;
+    font-family: 'Playfair_Display', serif;
+    font-weight: 500;
+    transform: translateY(-65%);
+}
+
+#collections-list1 main .card {
+    position: relative;
+}
+#collections-list1 main .card .container {
+    display: grid;
+    grid-gap: 0 5.7%;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 64px;
+}
+#collections-list1 main .card .container {
+    grid-template-areas: "collection-display collection-info";
+}
+#collections-list1 main .card:nth-child(odd) .bg {
+    height: 93%;
+    background: var(--bgcolor);
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+}
+#collections-list1 main .card:first-child .bg {
+    height: 133%;
+    top: 0;
+}
+#collections-list1 main .card:last-child .bg {
+    display: none;
+}
+#collections-list1 main .card:nth-child(even) .container {
+    grid-template-areas: "collection-info collection-display";
+}
+
+#collections-list1 .card .display {
+    grid-area: collection-display;
+}
+#collections-list1 .card .display .image {
+    height: 510px;
+    background-size: auto 100%;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+
+#collections-list1 .card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: collection-info;
+}
+#collections-list1 .card .info .name {
+    font-size: 210%;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+#collections-list1 .card .info .desc {
+    font-size: 105%;
+    font-weight: 600;
+    margin-bottom: 64px;
+    color: var(--fgcolor4);
+}
+#collections-list1 .card .info .name, #collections-list1 .card .info .desc {
+    font-family: 'Playfair_Display', serif;
+}
+#collections-list1 .card .info .btn {
+    margin-bottom: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#collections-list2 {
+    padding: 8px;
+}
+#collections-list2 .row {
+    display: flex;
+}
+#collections-list2 article {
+    height: 570px;
+    margin: 8px;
+    position: relative;
+}
+#collections-list2 article:first-child {
+    flex-grow: 1;
+}
+
+#collections-list2 article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#collections-list2 article .info {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 36px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.45);
+}
+#collections-list2 article .info.position-simple {
+    display: flex;
+}
+.center-center {
+    justify-content: center;
+    align-items: center;
+}
+.bottom-left {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#collections-list2 article .info .wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#collections-list2 article .info.content-center .wrapper {
+    align-items: center;
+}
+#collections-list2 article .info.position-custom .wrapper {
+    display: block;
+}
+#collections-list2 article .info .name {
+    font-weight: 400;
+    font-family: 'Playfair_Display', serif;
+    text-transform: capitalize;
+    line-height: 111%;
+    color: #fff;
+}
+#collections-list2 article .info .name.size-2 {
+    font-size: 300%;
+}
+#collections-list2 article .info .name.size-1 {
+    font-size: 180%;
+}
+#collections-list2 article .info .btn {
+    border-color: #fff;
+    color: #fff;
+    margin-top: 21px;
+}

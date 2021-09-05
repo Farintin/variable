@@ -1,0 +1,176 @@
+/*nav .col {
+    display: flex;
+    align-items: center;
+}
+
+nav .hamburger {
+    display: inline-block;
+}
+nav .hamburger .bar {
+    width: 21px;
+    height: 2px;
+    background-color: var(--fgcolor4);
+    border-radius: 50px;
+}
+nav .hamburger .bar#bar-2 {
+    margin: 5px 0;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    color: var(--fgcolor3);
+}*/
+
+
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu .item {
+    margin: 0 21px;
+    font-weight: 700;
+    font-size: 72%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--fgcolor2);
+}
+
+
+
+
+
+#nav {
+    --foreground-color: #000;
+}
+#nav.bottom-line {
+    border: 2px solid var(--foreground-color);
+    border-width: 0 0 2px 0;
+}
+#nav .wrapper {
+    padding: 33px 0;
+    display: flex;
+}
+
+#nav .col {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 8px;
+}
+#nav .col > *:first-child {
+    margin-left: 0;
+}
+#nav .col > *:last-child {
+    margin-right: 0;
+}
+
+#nav .menu {
+    margin-top: 4px;
+}
+
+#nav .icon {
+    margin: 0 12px;
+    width: 24px;
+}
+#nav .icon svg {
+    fill: var(--foreground-color);
+    stroke: var(--foreground-color);
+}
+#nav .text * {
+    color: var(--foreground-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+#nav1-1 {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 48px 0;
+}
+#nav1-1 .col {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav2-1 {
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;
+}
+
+.nav2-1 .hamburger .bar {
+    background-color: #fff;
+}
+
+.nav2-1 .icon.cart {
+    width: 21px;
+}
+.nav2-1 .icon.cart svg, .nav2-1 .icon.search svg {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.nav2-1 .col-2 {
+    justify-content: center;
+}
+
+.nav2-1 .col-3 {
+    justify-content: flex-end;
+}
+
+.nav2-1 .col-3 .icon {
+    margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav#tabs {
+    padding: 32px 0;
+}
+nav#tabs ul {
+    list-style: none;
+}
+nav#tabs ul li {
+    display: inline;
+    margin-right: 21px;
+    font-weight: 700;
+    font-size: 90%;
+    text-transform: capitalize;
+}

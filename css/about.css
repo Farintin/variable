@@ -1,0 +1,132 @@
+body#about #header {
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+body#about #header .wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 81px auto;
+    background-color: rgb(16 16 16 / 36%);
+}
+
+body#about #header #banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body#about #header #banner h1 {
+    color: #fff;
+    font-family: 'Playfair_Display', serif;
+    font-size: 285%;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+body#about #header #banner .btn {
+    border-color: #fff;
+    color: #fff;
+}
+body#about #header #banner .icon.mouse {
+    width: 36px;
+    position: absolute;
+    bottom: 6%;
+}
+body#about #header #banner .icon.mouse svg {
+    fill: #fff;
+}
+
+
+
+
+
+
+
+
+
+body#about #article h1 {
+    font-size: 81%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+body#about #article .para {
+    font-size: 108%;
+    margin-top: 24px;
+    font-family: 'Playfair_Display', serif;
+    font-weight: 600;
+    line-height: 180%;
+    letter-spacing: 0.2px;
+    width: 83%;
+}
+body#about #article .btn {
+    margin-top: 24px;
+}
+body#about #article .btn p {
+    font-size: 72%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body#about #jornal {
+    margin-top: 72px;
+}
+
+body#about #jornal .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body#about #jornal .header h1 {
+    font-size: 210%;
+    font-family: 'Playfair_Display', serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+body#about #jornal main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.1%;
+    margin-top: 36px;
+}
+
+body#about #jornal article img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+body#about #jornal article p {
+    font-size: 106%;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+    width: 81%;
+    padding: 12px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body#about footer {
+    margin-top: 108px;
+}

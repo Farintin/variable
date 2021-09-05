@@ -1,0 +1,381 @@
+/****************  Pragati Narrow Pro ********************/
+
+@font-face {
+	font-family: "Pragati_Narrow";
+    src: url(../fonts/PragatiNarrow/PragatiNarrow-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+	font-family: "Pragati_Narrow";
+    src: url(../fonts/PragatiNarrow/PragatiNarrow-Bold.ttf);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/**************** Archivo Condensed ********************/
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Thin.ttf);
+    font-weight: 100;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+	font-family: "Archivo_Condensed";
+    src: url(../fonts/ArchivoCondensed/ArchivoCondensed-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/**************** Archivo ExtraCondensed ********************/
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Thin.ttf);
+    font-weight: 100;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+	font-family: "Archivo_ExtraCondensed";
+    src: url(../fonts/ArchivoExtraCondensed/ArchivoExtraCondensed-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/****************  Source Sans Pro ********************/
+
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+	font-family: "Source_Sans_Pro";
+    src: url(../fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/****************  Playfair Display ********************/
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+	font-family: "Playfair_Display";
+    src: url(../fonts/PlayfairDisplay/static/PlayfairDisplay-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}

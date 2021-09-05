@@ -1,0 +1,29 @@
+.icon {
+    width: 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon svg {
+    width: 100%;
+    fill: var(--fgcolor5);
+    stroke: var(--fgcolor5);
+}
+
+.icon.arrow-back, .icon.arrow-forward {
+    width: 16px;
+}
+.icon.arrow svg path {
+    stroke-width: 6px;
+}
+
+.icon.location {
+    width: 20px;
+    margin-left: -4px;
+}
+.icon.send {
+    width: 15px;
+}

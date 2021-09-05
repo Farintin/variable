@@ -1,0 +1,143 @@
+.slider .slide .col .image {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider .slide .col .image .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 12%;
+}
+
+
+
+
+
+
+
+
+
+#heroSlider3 {
+    font-family: 'Playfair_Display', serif;
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    --slide-cols-partition: 8fr 5fr;
+}
+
+#heroSlider3 .slides {
+    display: flex;
+    height: 100%;
+}
+
+#heroSlider3 .slides .slide-btn {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroSlider3 .slides .slide-btn .icon {
+    width: 27px;
+    padding: 48px;
+}
+
+
+
+#heroSlider3 main {
+    height: 100%;
+}
+
+#heroSlider3 main .slide {
+    display: none;
+}
+#heroSlider3 main .slide.active {
+    display: grid;
+    grid-template-columns: var(--slide-cols-partition);
+    grid-gap: 0 2.7%;
+    height: 100%;
+}
+
+#heroSlider3 main .slide .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#heroSlider3 main .slide .col .product-gallery {
+    margin-bottom: 42px;
+}
+
+#heroSlider3 main .slide .col > * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#heroSlider3 main .slide .col > *:first-child {
+    margin-top: 0;
+}
+#heroSlider3 main .slide .col > *:last-child {
+    margin-bottom: 0;
+}
+
+
+#heroSlider3 h1 {
+    font-size: 279%;
+    font-weight: 500;
+    width: 144%;
+}
+#heroSlider3 .para {
+    font-size: 90%;
+    line-height: 210%;
+    font-weight: 600;
+    width: 81%;
+    letter-spacing: 0.3px;
+}
+
+
+
+.slides-pag .counter {
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider .slide .col .product-gallery {
+    height: 100%;
+}
+.slider .slide .col .product-gallery main {
+    width: 100%;
+    height: 100%;
+}
+.slider .slide .col .product-gallery .media {
+    display: none;
+}
+.slider .slide .col .product-gallery .media.active {
+    display: block;
+}
+
+.slider .slide .col .product-gallery .pag {
+    display: flex;
+}
+.slider .slide .col .product-gallery .pag .nav-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider .slide .col .product-gallery .pag .nav-btns .btn {
+    margin-left: 16px;
+}

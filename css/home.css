@@ -1,0 +1,72 @@
+body#home #carousel1 {
+    margin-top: 24px;
+}
+
+
+
+
+
+#blog {
+    margin-top: 96px;
+    position: relative;
+}
+#blog .bg {
+    background-color: var(--bgcolor);
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#blog .heading {
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#blog .heading h1 {
+    font-size: 240%;
+    font-family: 'Playfair_Display', serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#blog .heading .scroll-btns {
+    display: flex;
+}
+#blog .heading .scroll-btns .btn {
+    margin-left: 24px;
+}
+#blog .heading .scroll-btns .btn:first-child {
+    margin-left: 0;
+}
+
+
+#blog main .container {
+    display: flex;
+    margin-top: 16px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: calc(-5px + (-1000px + 100vw)/2 + 1000px);
+}
+#blog main .container::-webkit-scrollbar {
+    display: none;
+}
+
+#blog main article {
+    margin-right: 27px;
+}
+#blog main article img {
+    width: 310px;
+    height: 180px;
+    object-fit: cover;
+}
+#blog main article p {
+    margin-top: 9px;
+    font-size: 90%;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    width: 90%;
+}
