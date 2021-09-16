@@ -1,36 +1,6 @@
-/*nav .col {
-    display: flex;
-    align-items: center;
-}
-
-nav .hamburger {
-    display: inline-block;
-}
-nav .hamburger .bar {
-    width: 21px;
-    height: 2px;
-    background-color: var(--fgcolor4);
-    border-radius: 50px;
-}
-nav .hamburger .bar#bar-2 {
-    margin: 5px 0;
-}
-
-nav ul {
-    display: flex;
-}
-nav ul li {
-    color: var(--fgcolor3);
-}*/
-
-
-
-
-
 .menu {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 .menu .item {
@@ -47,28 +17,22 @@ nav ul li {
 
 
 #nav {
-    --foreground-color: #000;
+    --fg-color: #000;
+    height: 100px;
 }
 #nav.bottom-line {
-    border: 2px solid var(--foreground-color);
+    border: 2px solid var(--fg-color);
     border-width: 0 0 2px 0;
 }
 #nav .wrapper {
-    padding: 33px 0;
     display: flex;
+    height: 100%;
 }
 
 #nav .col {
     display: flex;
     width: 100%;
     align-items: center;
-    margin: 0 8px;
-}
-#nav .col > *:first-child {
-    margin-left: 0;
-}
-#nav .col > *:last-child {
-    margin-right: 0;
 }
 
 #nav .menu {
@@ -76,15 +40,24 @@ nav ul li {
 }
 
 #nav .icon {
-    margin: 0 12px;
     width: 24px;
 }
 #nav .icon svg {
-    fill: var(--foreground-color);
-    stroke: var(--foreground-color);
+    fill: var(--fg-color);
+    stroke: var(--fg-color);
 }
 #nav .text * {
-    color: var(--foreground-color);
+    color: var(--fg-color);
+}
+
+#nav .col > * {
+    margin: 0 8px;
+}
+#nav .col > *:first-child {
+    margin-left: 0;
+}
+#nav .col > *:last-child {
+    margin-right: 0;
 }
 
 

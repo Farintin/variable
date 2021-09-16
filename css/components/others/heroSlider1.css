@@ -1,0 +1,50 @@
+#heroSlider1 {
+    font-family: 'Playfair_Display', serif;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#heroSlider1 .overlay {
+    display: flex;
+    flex-direction: column;
+}
+
+#heroSlider1 .row {
+    flex-grow: 1;
+}
+
+#heroSlider1 .slides {
+    display: flex;
+    height: 100%;
+}
+
+#heroSlider1 .slides .slide-btn {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroSlider1 .slides .slide-btn .icon {
+    width: 27px;
+    padding: 48px;
+}
+
+
+
+#heroSlider1 main {
+    height: 100%;
+}
+
+#heroSlider1 main .slide {
+    display: none;
+}
+#heroSlider1 main .slide.active {
+    display: grid;
+    grid-template-columns: var(--slide-cols-partition);
+    grid-gap: 0 2.7%;
+    height: 100%;
+}

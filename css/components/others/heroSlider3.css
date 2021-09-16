@@ -1,26 +1,3 @@
-.slider .slide .col .image {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.slider .slide .col .image .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 12%;
-}
-
-
-
-
-
-
-
-
-
 #heroSlider3 {
     font-family: 'Playfair_Display', serif;
     display: flex;
@@ -101,43 +78,4 @@
 
 .slides-pag .counter {
     font-size: 150%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.slider .slide .col .product-gallery {
-    height: 100%;
-}
-.slider .slide .col .product-gallery main {
-    width: 100%;
-    height: 100%;
-}
-.slider .slide .col .product-gallery .media {
-    display: none;
-}
-.slider .slide .col .product-gallery .media.active {
-    display: block;
-}
-
-.slider .slide .col .product-gallery .pag {
-    display: flex;
-}
-.slider .slide .col .product-gallery .pag .nav-btns {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.slider .slide .col .product-gallery .pag .nav-btns .btn {
-    margin-left: 16px;
 }
